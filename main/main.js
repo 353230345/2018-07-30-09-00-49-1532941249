@@ -7,8 +7,9 @@ module.exports = function main() {
 };
 
 class Sequence {
+	var input[];
   constructor(input) {
-    
+    this.input=input;
   }
 
   minimum() {
