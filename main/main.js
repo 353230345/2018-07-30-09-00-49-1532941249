@@ -7,7 +7,7 @@ module.exports = function main() {
 };
 
 class Sequence {
-	var input[];
+	var input=[];
   constructor(input) {
     this.input=input;
   }
@@ -16,7 +16,7 @@ class Sequence {
 	var min=input[0]
     for(var i=1;i<6;i++){
 		if(min>input[i]){
-			min=input[1];
+			min=input[i];
 		}
 	}
 	return min
@@ -26,7 +26,7 @@ class Sequence {
 	var max=input[0]
     for(var i=1;i<6;i++){
 		if(max<input[i]){
-			max=input[1];
+			max=input[i];
 		}
 	}
 	return max
